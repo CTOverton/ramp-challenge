@@ -2,7 +2,7 @@
   "setupTasks": [
     {
       "name": "Install Dependencies",
-      "command": "yarn install"
+      "command": "cd step-3/ramp-challenge/ && yarn install"
     }
   ],
   "tasks": {
