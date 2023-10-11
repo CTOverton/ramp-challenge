@@ -1,0 +1,28 @@
+{
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+  "tasks": {
+    "dev": {
+      "name": "dev",
+      "command": "cd step-3/ramp-challenge/ && yarn dev",
+      "runAtStart": true,
+      "preview": {
+        "port": 5173
+      }
+    },
+    "build": {
+      "name": "build",
+      "command": "cd step-3/ramp-challenge/ && yarn build",
+      "runAtStart": false
+    },
+    "preview": {
+      "name": "preview",
+      "command": "cd step-3/ramp-challenge/ && yarn preview",
+      "runAtStart": false
+    }
+  }
+}
